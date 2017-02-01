@@ -1,19 +1,26 @@
 h1 {
     font-family: 'Lobster', cursive;
     font-size: 55px;
-    color: #4E4041;
+    color: #1D263B;
     font-style: italic;
 }
 
 body {
     background: #F4F4F9;
     color: #796465;
+    color: #1D263B;
     text-align: center;
-    font-family: Open Sans', sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 
-#header {
-    border-color: #558CCC;
+#header-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header-button {
+    display: inline;
 }
 
 .thin-body {
@@ -26,15 +33,15 @@ body {
 }
 
 #great-lakes-info {
-    background: #9BBDF9;
+    background: #C4E0F9;
 }
 
 #destinations {
-    background: #67AAF9;
+    background: #C4E0F9;
 }
 
 #seasons {
-    background: #558CCC;
+    background: #C4E0F9;
 }
 
 #contact-p {
@@ -63,8 +70,8 @@ table#t1, th, tr, td {
 tr:hover {background-color: #C4A28F}
 
 a:link, a:visited {
-    background-color: #C4E0F9;
-    color: #796465;
+    background-color: #9BBDF9;
+    color: #1D263B;
     padding: 14px 25px;
     text-align: center; 
     text-decoration: none;
@@ -72,5 +79,5 @@ a:link, a:visited {
 }
 
 a:hover, a:active {
-    background-color: white;
+    background-color: #67AAF9;
 }
